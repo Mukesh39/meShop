@@ -19,7 +19,7 @@ const Navbar = () => {
         justifyContent: "space-between",
       }}
     >
-      <span className="logo">Redux Store</span>
+      <span className="logo">meShop</span>
 
       <div>
         <Link className="navLink" to="/">
