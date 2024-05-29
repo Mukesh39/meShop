@@ -18,7 +18,7 @@ const Cart = () => {
       <div className="cartWrapper">
         {products.map((product) => (
           <div className="cartCard">
-            <img src={product.image} alt="image" />
+            <img src={product.image} alt="imagess" />
             <h5>{product.title}</h5>
             <h5>{product.price}</h5>
             <button className="btn" onClick={() => handleRemove(product.id)}>
