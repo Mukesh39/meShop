@@ -46,13 +46,12 @@ const Products = () => {
     <div className="productsWrapper">
       {products.map((product) => (
         <div className="card" key={product.id}>
-          <img src={product.image} alt="Images" />
+          <img  className="imgCard" src={product.image} alt="Images" />
           <h4>{product.title}</h4>
           <h1>{product.price}</h1>
           <button onClick={() => handleAdd(product)} className="btn">
             Add to cart
           </button>
-          <p>{product.id}</p>
         </div>
       ))}
     </div>

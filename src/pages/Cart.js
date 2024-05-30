@@ -14,13 +14,13 @@ const Cart = () => {
 
   return (
     <div>
-      <h3>Cart</h3>
+      <h3 className="cardHeading ">Your Cart</h3>
       <div className="cartWrapper">
         {products.map((product) => (
           <div className="cartCard" key={product.id}>
-            <img src={product.image} alt="" />
-            <h5>{product.title}</h5>
-            <h5>{product.price}</h5>
+            <img className="imgCart" src={product.image} alt="" />
+            <h5 className="cartTitle">{product.title}</h5>
+            <h5 className="cartPrice">{product.price}</h5>
             <button className="btn" onClick={() => handleRemove(product.id)}>
               Remove{" "}
             </button>

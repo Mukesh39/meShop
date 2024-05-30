@@ -5,7 +5,6 @@ const Home = () => {
   return (
     <div>
       <h2 className="heading">Welcome meSHOP </h2>
-
       <main class="container">
         <p>meShop 👋 Let's</p>
         <section class="animation">
