@@ -50,8 +50,6 @@ const productSlice = createSlice({
 
 export const { setProducts, setStatus } = productSlice.actions;
 
-export const {} = productSlice.actions;
-
 export default productSlice.reducer;
 
 //Thunk
@@ -82,13 +80,16 @@ export default productSlice.reducer;
 // 2nd way to deal with Thunk and with Redux toolkits  in redux
 
 export const fetchProducts = createAsyncThunk("products/fetch", async () => {
-  const res = await fetch("https://fakestoreapi.com/products");
-
-  const data = await res.json();
-
-  console.log(data);
-
-  return data;
+  try {
+    const res = await fetch("https://fakestoreapi.com/products");
+    if (!res.ok) {
+      throw new Error("Failed to fetch products");
+    }
+    const data = await res.json();
+    return data;
+  } catch (error) {
+    throw error;
+  }
 });
 
 // A function that accepts an initial state, an object of reducer functions, and a "slice name", and automatically generates action creators and action types that correspond to the reducers and state.

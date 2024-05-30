@@ -52,6 +52,7 @@ const Products = () => {
           <button onClick={() => handleAdd(product)} className="btn">
             Add to cart
           </button>
+          <p>{product.id}</p>
         </div>
       ))}
     </div>

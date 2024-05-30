@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 
 import { Provider } from "react-redux";
 import store from "./store/store";
-
+//import ProdDetails from "./components/ProdDetails";
 //react-redux is actually the store of providers
 
 function App() {

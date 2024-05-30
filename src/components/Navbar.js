@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { useSelector } from "react-redux";
+import me from "../images/me.png";
 
 //to get the Data from Store
 
@@ -19,7 +20,9 @@ const Navbar = () => {
         justifyContent: "space-between",
       }}
     >
-      <span className="logo">meSHOP</span>
+      <span className="logo">
+        <img className="imgLogo" src={me} alt="" />
+      </span>
 
       <div>
         <Link className="navLink" to="/">
