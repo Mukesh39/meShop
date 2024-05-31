@@ -9,9 +9,9 @@ meShop is an eCommerce project built with React and Redux Toolkits. It aims to p
 - **Add to Cart**: Allow users to add products to their shopping cart.
 - **Delete from Cart**: Enable users to remove products from their shopping cart.
 - **Cart Management**: Implement functionalities to manage the shopping cart.
-- **Checkout Process**: Develop a checkout process for users to complete their purchases.
-- **User Authentication**: Integrate user authentication for personalized experiences.
-- **Responsive Design**: Ensure the website is responsive across various devices.
+- **Checkout Process**: Develop a checkout process for users to complete their purchases.(Developing)
+- **User Authentication**: Integrate user authentication for personalized experiences.(Developing)
+- **Responsive Design**: Ensure the website is responsive across various devices.(Developing + some done)
 
 ## Setup Instructions
 
