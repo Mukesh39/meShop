@@ -9,9 +9,15 @@ meShop is an eCommerce project built with React and Redux Toolkits. It aims to p
 - **Add to Cart**: Allow users to add products to their shopping cart.
 - **Delete from Cart**: Enable users to remove products from their shopping cart.
 - **Cart Management**: Implement functionalities to manage the shopping cart.
+<<<<<<< HEAD
 - **Checkout Process**: Develop a checkout process for users to complete their purchases.(Developing)
 - **User Authentication**: Integrate user authentication for personalized experiences.(Developing)
 - **Responsive Design**: Ensure the website is responsive across various devices.(Developing + some done)
+=======
+- **Checkout Process**: Develop a checkout process for users to complete their purchases.
+- **User Authentication**: Integrate user authentication for personalized experiences.
+- **Responsive Design**: Ensure the website is responsive across various devices.
+>>>>>>> 468f618 ( The Components made like Footer  and Carausel and Stats)
 
 ## Setup Instructions
 
@@ -36,7 +42,11 @@ Contributions are welcome! If you have any suggestions, bug reports, or enhancem
 
 ## Authors
 
+<<<<<<< HEAD
 - [Mukesh](https://github.com/Mukesh39) - Project Lead & Developer
+=======
+- [Your Name](https://github.com/yourusername) - Project Lead & Developer
+>>>>>>> 468f618 ( The Components made like Footer  and Carausel and Stats)
 
 ## License
 
@@ -44,7 +54,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
+<<<<<<< HEAD
 Special thanks to [Products Api from FakeSTore API ] for providing the product data API used in this project.
+=======
+Special thanks to [Name of API Provider] for providing the product data API used in this project.
+>>>>>>> 468f618 ( The Components made like Footer  and Carausel and Stats)
 
 ---
 
