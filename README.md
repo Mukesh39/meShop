@@ -42,11 +42,7 @@ Contributions are welcome! If you have any suggestions, bug reports, or enhancem
 
 ## Authors
 
-<<<<<<< HEAD
 - [Mukesh](https://github.com/Mukesh39) - Project Lead & Developer
-=======
-- [Your Name](https://github.com/yourusername) - Project Lead & Developer
->>>>>>> 468f618 ( The Components made like Footer  and Carausel and Stats)
 
 ## License
 
@@ -54,12 +50,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-<<<<<<< HEAD
 Special thanks to [Products Api from FakeSTore API ] for providing the product data API used in this project.
-=======
-Special thanks to [Name of API Provider] for providing the product data API used in this project.
->>>>>>> 468f618 ( The Components made like Footer  and Carausel and Stats)
 
----
+
 
 This README provides an overview of the meShop project, its features, setup instructions, technologies used, contribution guidelines, and licensing information. For more details, refer to the project documentation and source code.
