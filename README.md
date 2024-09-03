@@ -1,6 +1,6 @@
 # meShop: React Redux eCommerce Project
 
-meShop is an eCommerce project built with React and Redux Toolkits. It aims to provide a seamless shopping experience with features such as product fetching from an API, displaying products on the homepage, and functionalities like adding to cart and deleting from cart. The project is a work in progress, with many more enhancements planned.
+meShop is an eCommerce project built with React and Redux Toolkit. It aims to provide a seamless shopping experience with features such as product fetching from an API, displaying products on the homepage, and functionalities like adding to cart and deleting from cart. The project is a work in progress, with many more enhancements planned.
 
 ## Features
 
@@ -53,3 +53,10 @@ Special thanks to [Products Api from FakeSTore API ] for providing the product d
 
 
 This README provides an overview of the meShop project, its features, setup instructions, technologies used, contribution guidelines, and licensing information. For more details, refer to the project documentation and source code.
+
+
+Some Reading : 
+Here is Properly implemented the use redux thunk - Api calling .
+Redux Thunk is a middleware that allows you to dispatch actions that contain async logic. It is particularly useful for making API calls and performing other async tasks.
+
+Reading reference : https://medium.com/@siavash.sajjady/an-introduction-to-middleware-in-redux-types-benefits-and-examples-985c876e706c

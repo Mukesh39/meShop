@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar";
 
 import { Provider } from "react-redux";
 import store from "./store/store";
+
+
 import { Footers } from "./components/Footers.tsx";
 import Stats from "./components/Stats.js";
 //import ProdDetails from "./components/ProdDetails";

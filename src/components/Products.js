@@ -10,25 +10,15 @@ const Products = () => {
   //   const [products, setProducts] = useState([]);
   const dispatch = useDispatch();
 
-  //we have producs array inside that we have data and status
+  //we have products array inside that we have data and status
 
   const { data: products, status } = useSelector((state) => state.product);
 
   useEffect(() => {
     dispatch(fetchProducts());
 
-    // const fetchProducts = async () => {
-    //   const res = await fetch("https://fakestoreapi.com/products");
-
-    //   const data = await res.json();
-
-    //   setProducts(data);
-
-    //   console.log(data);
-    // };
-
-    // fetchProducts();
   }, [dispatch]);
+  
 
   const handleAdd = (product) => {
     dispatch(add(product));
@@ -53,6 +43,7 @@ const Products = () => {
             Add to cart
           </button>
         </div>
+
       ))}
     </div>
   );

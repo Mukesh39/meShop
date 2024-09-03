@@ -17,7 +17,7 @@ export function Footers() {
       <div className="w-full  bg-black  max-h-60 p-4  text-white">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1  text-white">
           <div>
-            <Footer.Brand href="#" src={me} alt="Flowbite Logo" name="meShop" />
+            <Footer.Brand href="#" className="text-white" src={me} alt="Flowbite Logo" name="meShop" />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6  text-white">
             <div>

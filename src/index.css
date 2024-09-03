@@ -116,11 +116,12 @@ img {
   align-items: center;
   justify-content: space-between;
   background: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
   padding: 14px;
   border-radius: 5px;
   max-width: 80%;
   margin-left: 5rem;
+  
 }
 
 /* Animation */
